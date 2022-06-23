@@ -1,0 +1,278 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Autochest = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Hohohub = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Stringhub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ThunderZ = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Murokohub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Blacktrap = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Bloxfruit = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local SazaHub = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local _1 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local _1_2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local _1_3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local _1_4 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local _1_5 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(0, 147, 221)
+main.BorderColor3 = Color3.fromRGB(68, 136, 199)
+main.Position = UDim2.new(0.24238579, 0, 0.27992633, 0)
+main.Size = UDim2.new(0, 274, 0, 298)
+main.Active = true
+main.Draggable = true
+
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+label.Size = UDim2.new(0, 274, 0, 50)
+label.Font = Enum.Font.GothamBlack
+label.Text = "Karlwalss gaming Script"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 18.000
+label.TextWrapped = true
+
+UICorner.Parent = label
+
+Autochest.Name = "Auto chest"
+Autochest.Parent = main
+Autochest.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Autochest.Position = UDim2.new(0.0167064443, 0, 0.302013427, 0)
+Autochest.Size = UDim2.new(0, 120, 0, 27)
+Autochest.Font = Enum.Font.SourceSansBold
+Autochest.Text = "Auto chest"
+Autochest.TextColor3 = Color3.fromRGB(0, 0, 0)
+Autochest.TextSize = 16.000
+Autochest.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm"))()
+end)
+
+UICorner_2.Parent = Autochest
+
+Hohohub.Name = "Hoho hub"
+Hohohub.Parent = main
+Hohohub.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Hohohub.Position = UDim2.new(0.0167064406, 0, 0.530201316, 0)
+Hohohub.Size = UDim2.new(0, 120, 0, 27)
+Hohohub.Font = Enum.Font.SourceSansBold
+Hohohub.Text = "HOHO hub"
+Hohohub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hohohub.TextSize = 16.000
+Hohohub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+
+UICorner_3.Parent = Hohohub
+
+Stringhub.Name = "String hub"
+Stringhub.Parent = main
+Stringhub.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Stringhub.Position = UDim2.new(0.0167064369, 0, 0.758389294, 0)
+Stringhub.Size = UDim2.new(0, 120, 0, 27)
+Stringhub.Font = Enum.Font.SourceSansBold
+Stringhub.Text = "String hub"
+Stringhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Stringhub.TextSize = 16.000
+Stringhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
+UICorner_4.Parent = Stringhub
+
+ThunderZ.Name = "Thunder Z"
+ThunderZ.Parent = main
+ThunderZ.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+ThunderZ.Position = UDim2.new(0.0167064369, 0, 0.882550299, 0)
+ThunderZ.Size = UDim2.new(0, 120, 0, 27)
+ThunderZ.Font = Enum.Font.SourceSansBold
+ThunderZ.Text = "Thuneder Z"
+ThunderZ.TextColor3 = Color3.fromRGB(0, 0, 0)
+ThunderZ.TextSize = 16.000
+ThunderZ.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+end)
+
+UICorner_5.Parent = ThunderZ
+
+Murokohub.Name = "Muroko hub"
+Murokohub.Parent = main
+Murokohub.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Murokohub.Position = UDim2.new(0.0167064369, 0, 0.640939593, 0)
+Murokohub.Size = UDim2.new(0, 120, 0, 27)
+Murokohub.Font = Enum.Font.SourceSansBold
+Murokohub.Text = "Muroko hub"
+Murokohub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Murokohub.TextSize = 16.000
+Murokohub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+UICorner_6.Parent = Murokohub
+
+Blacktrap.Name = "Black trap"
+Blacktrap.Parent = main
+Blacktrap.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Blacktrap.Position = UDim2.new(0.0167064667, 0, 0.412751704, 0)
+Blacktrap.Size = UDim2.new(0, 120, 0, 27)
+Blacktrap.Font = Enum.Font.SourceSansBold
+Blacktrap.Text = "Blacktrap"
+Blacktrap.TextColor3 = Color3.fromRGB(0, 0, 0)
+Blacktrap.TextSize = 16.000
+Blacktrap.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/BdvUGb2q"))()
+end)
+
+UICorner_7.Parent = Blacktrap
+
+Bloxfruit.Name = "Bloxfruit"
+Bloxfruit.Parent = main
+Bloxfruit.Active = true
+Bloxfruit.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Bloxfruit.Position = UDim2.new(0.0167064443, 0, 0.194630876, 0)
+Bloxfruit.Size = UDim2.new(0, 120, 0, 26)
+Bloxfruit.Font = Enum.Font.GothamBold
+Bloxfruit.Text = "Bloxfruit script"
+Bloxfruit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bloxfruit.TextScaled = true
+Bloxfruit.TextSize = 14.000
+Bloxfruit.TextWrapped = true
+
+UICorner_8.Parent = Bloxfruit
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.Position = UDim2.new(0.493508041, 0, 0.194630876, 0)
+TextLabel.Size = UDim2.new(0, 134, 0, 26)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Pet Simulator X Script"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_9.Parent = TextLabel
+
+SazaHub.Name = "SazaHub"
+SazaHub.Parent = main
+SazaHub.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+SazaHub.Position = UDim2.new(0.493508041, 0, 0.302013427, 0)
+SazaHub.Size = UDim2.new(0, 134, 0, 27)
+SazaHub.Font = Enum.Font.SourceSansBold
+SazaHub.Text = "Saza hub"
+SazaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+SazaHub.TextSize = 14.000
+SazaHub.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_10.Parent = SazaHub
+
+UICorner_11.Parent = main
+
+_1.Name = "1"
+_1.Parent = main
+_1.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_1.Position = UDim2.new(0.493508041, 0, 0.882550359, 0)
+_1.Size = UDim2.new(0, 134, 0, 27)
+_1.Font = Enum.Font.SourceSansBold
+_1.Text = "Unlock all Hoveboard"
+_1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1.TextSize = 14.000
+_1.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_12.Parent = _1
+
+_1_2.Name = "1"
+_1_2.Parent = main
+_1_2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_1_2.Position = UDim2.new(0.493508041, 0, 0.758389235, 0)
+_1_2.Size = UDim2.new(0, 134, 0, 27)
+_1_2.Font = Enum.Font.SourceSansBold
+_1_2.Text = "Unlock All Gamepass"
+_1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.TextSize = 14.000
+_1_2.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_13.Parent = _1_2
+
+_1_3.Name = "1"
+_1_3.Parent = main
+_1_3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_1_3.Position = UDim2.new(0.493508041, 0, 0.640939593, 0)
+_1_3.Size = UDim2.new(0, 134, 0, 27)
+_1_3.Font = Enum.Font.SourceSansBold
+_1_3.Text = "Thumder Z"
+_1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_3.TextSize = 14.000
+_1_3.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_14.Parent = _1_3
+
+_1_4.Name = "1"
+_1_4.Parent = main
+_1_4.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_1_4.Position = UDim2.new(0.493508041, 0, 0.530201375, 0)
+_1_4.Size = UDim2.new(0, 134, 0, 27)
+_1_4.Font = Enum.Font.SourceSansBold
+_1_4.Text = "Project Meow"
+_1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_4.TextSize = 14.000
+_1_4.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_15.Parent = _1_4
+
+_1_5.Name = "1"
+_1_5.Parent = main
+_1_5.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+_1_5.Position = UDim2.new(0.493508041, 0, 0.412751675, 0)
+_1_5.Size = UDim2.new(0, 134, 0, 27)
+_1_5.Font = Enum.Font.SourceSansBold
+_1_5.Text = "Blacktrap"
+_1_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1_5.TextSize = 14.000
+_1_5.MouseButton1Down:connect(function()
+	_G.AuthKey = "f4fa1af2-d749-4c4a-9891-d7f673e8f78f"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load"))()
+end)
+
+UICorner_16.Parent = _1_5
